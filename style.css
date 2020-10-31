@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    
+    
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family:Arial/*, Helvetica, sans-serif */;
+}
+/*===================================================NAV BAR===============================================*/
+#nav {
+    background-color: rgb(255, 209, 2);
+    margin: 0;
+    padding: 0px;
+    line-height: 100px;
+    width: 100%;
+    transition: 0.5s;
+}
+#nav .logo{
+    position: absolute;
+    padding: 0px;
+    margin-left: 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+#nav ul{
+    list-style-type: none;
+    text-align:right;
+}
+#nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+ul li p{
+    text-align:left;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+    padding-right: 50px;
+    line-height: 80px;
+    font-size: 20px;
+}
+#nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width:320px){
+    #nav{
+        line-height: 50px;
+        width: 510px;
+    }
+    #nav .logo{
+        display: inline-block;
+        line-height: 40px;
+    }
+#nav ul li a{
+    margin: 0px;
+    line-height: 50px;
+}
+}
+/*========================================SECTION 1============================================*/
+.section1{
+   height:650px;
+   position:relative;
+   /*background-color: rgb(231, 186, 186);*/
+   width: 100%;
+   padding: 0px;
+}
+#image{
+    position: relative;
+    width:650px;
+    height:450px;
+    float: left;
+    width: 30%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#main{
+    position: relative;
+    float:right;
+    width:30%;
+    margin: 100px;
+    /*background-color: cornflowerblue;*/
+}
+.section1 h1{
+    font-size: 50px;
+}
+.sec1 h3{
+    text-align: center;
+}   
+.text{
+  padding:10px 0px 10px 0px; 
+  font-size: 16px;
+}    
+.button{
+    padding: 3px;
+     float: right;
+ }
+.button .btn{
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    background-color: rgba(255, 187, 0, 0.87);
+    color: rgb(0, 0, 0);
+    border: black solid 2px;
+    box-shadow: #000 5px 0.7;
+}
+@media only screen and (max-width:930px) and (min-width:768px){
+    .section1{
+        height: 1000px;
+    }
+    #main{
+        position: relative;
+        float: left;
+        width: 50%;
+        margin-top:3%;
+        margin-right: 68%;
+    }
+}
+@media only screen and (max-width:768px){
+    .section1{
+        height: 1000px;
+    }
+    .image{
+        position: relative;
+        float: left;
+        width: 80px;
+        height: 50px;
+        margin-left: 150px;
+}
+    #main{
+        position: relative;
+        float: left;
+        width:80%;
+    }
+}
+@media only screen and (max-width:320px){
+    .section1{
+         height: 1050px;
+    }
+    .section1 #image{
+        position: relative;
+        width: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0px;
+    }
+    .section1 #main{
+        position: relative;
+        margin-top: 0px ;
+        width: 95%;
+    }
+}
+
+/*==================================================SECTION 2===========================================*/
+.section2{
+    position: relative;
+    height: 800px;
+    background-color: rgb(255, 208, 0);
+    width:100%;
+    padding: 0px;
+}
+#top1 h1{
+    /*padding: 20px 590px 10px 580px;
+    text-align: center;*/
+    font-size: 40px;
+}
+#top1 p{
+    /*padding: 10px 570px 20px 580px;
+    text-align: center;*/
+    font-size: 16px;
+}
+.section2 section{
+    padding-left:80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+.fa{
+    color: rgb(0, 0, 0);
+    padding-left: 55px;
+    padding-bottom: 40px;
+}/*
+#home{
+    animation-name: home;
+    animation-duration: 4s;
+}
+@keyframes home{
+    0%   { left:0px; top:5px;}
+    50%  { left:0px; top:15px}
+    100%  {left:0px; top:30px;}
+  }*/
+  
+#home a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#home, #about, #portfolio, #contact{
+    float: left;
+    position: relative;
+    width: 20%;
+    padding: 30px;
+}
+#home h1, #about h1, #portfolio h1, #contact h1{
+    font-size: 30px;
+    padding: 10px;
+}
+@media only screen and (max-width:320px){
+    .section2{
+        position: relative;
+        height: 1200px;
+        width:510px;
+        padding: 0px;
+    }
+    #top1 h1{
+        text-align: center;
+    }
+    #home, #about, #portfolio, #contact{
+        float: left;
+        position: relative;
+        width: 100%;
+        padding: 0px;
+    }
+    #home h1, #about h1, #portfolio h1, #contact h1{
+        font-size: 30px;
+        padding: 0px;
+    }
+}
+
+
+    /*
+#portfolio{
+    float: left;
+    position: relative;
+    width: 20%;
+}
+#contact{
+    float: left;
+    position: relative;
+    width: 20%;
+}*/
+/*==================================================SECTION 3=====================================================*/
+.section3{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+.section3 section{
+    padding-left: 50px;
+}
+.sec3 h1,p{
+    padding: 10px;
+}
+#top2 h1{
+    text-align: center;
+    padding:20px 30px 20px 30px;
+    font-size: 40px;
+}
+#top2 p{
+    width: 60%;
+    text-align: center;
+    /*padding: 0px 250px 20px 290px;*/
+    font-size: 16px;
+}
+#img1, #img2, #img3{
+    width: 350px;
+    height: 350px;
+}
+
+#one{
+    float:left;
+    position: relative;
+    width: 25%;
+    padding: 40px 40px 40px 60px;
+}
+#two, #three{
+    float: left;
+    position: relative;
+    width: 25%;
+    padding: 40px;
+}
+#img1, #img2, #img3{
+    padding-bottom: 30px;
+    margin: 10px;
+}
+@media only screen and (max-width:320px){
+    .section3{
+        text-align: left;
+    }
+    #top1 h1{
+        text-align: left;
+        padding: 0px;
+    }
+    #img1, #img2, #img3{
+        width: 350px;
+        height: 350px;
+    }
+}
+/*====================================================SECTION 4=========================================================*/
+
+.section4{
+    position: relative;
+    width: 100%;
+ height: 800px;
+ padding: 0px;
+background-color: rgb(248, 248, 248)
+}
+#top3 h1{
+    text-align: center;
+    padding:20px 30px 10px 30px; 
+    font-size: 40px;
+}
+#top3 p{
+    text-align: center;
+}
+.text2{
+    float: right;
+    width:40%;
+    padding: 60px 180px 20px 20px;
+}
+.text2 h2{
+ text-align: left;
+ padding: 10px 10px 10px 0px;
+ font-size: 30px;
+}
+.text2 h3{
+    text-align: left;
+    padding: 10px;
+    font-size: 25px;
+   }
+   .text2 p{
+    text-align: left;
+    padding: 10px 10px 10px 0px;
+    font-size: 16px;
+   }
+#img4{
+    float: left;
+    padding-top:80px;
+    padding-left: 100px;
+    width: 400px;
+    height: 450px;
+}
+.graph {
+    padding: 3px;
+    position: relative;
+    float:right;
+    text-align: left;
+    width: 35;
+}
+
+/*=======================================================SECTION 5=======================================*/
+
+.section5{
+    position: relative;
+    height:600px;
+    width: 100%;
+    padding: 0px;
+    background-color: rgb(255, 208, 0);
+}
+input[type=text], input[type=tel] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: black 2px solid;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #ffd000;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #131313;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px 20px 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button 
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }*/
+  
+  /* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+.send{
+    padding: 100px 0px 50px 120px;
+}
+#theForm{
+    float: left;
+    padding-left: 40px;
+    width: 35%;
+    display: table;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 25px;
+}
+.send h1{
+    padding:10px;
+    text-align: center;
+}
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+#top4{
+    padding: 0px 100px 60px 0px;
+    float: right;
+    width: 40%;
+}
+#top4 h1{
+    font-size: 50px;
+    text-align: center; 
+}
+#top4 p{
+    padding-left: 30px;
+}
+.icons2 .fa-home, .fa-share, .fa-phone{
+    color: #000;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 50px;
+}
+.icons2 ul{
+    list-style-type: none;
+    text-align:left;
+    padding-left: 30px;
+}
+.icons2 ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.icons2 ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    line-height: 80px;
+}
+.icons2 ul li a:hover{
+    background-color: white;
+    color: black;
+}
+/*=============================================  FOOTER  =========================================================*/
+.nav_footer {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0px;
+    line-height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.nav_footer ul{
+    list-style-type: none;
+    text-align:center;
+    padding-left: 200px;
+}
+.nav_footer li{
+    display: inline-block;
+    list-style: none;
+}
+.nav_footer ul li p{
+    text-align:left;
+    line-height: 0;
+}
+.nav_footer ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-right: 50px;
+    line-height: 80px;
+}
+.nav_footer ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}   
+.nav_footer .logo p{
+    position: absolute;
+    padding-left: 20px;
+    color: white;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav_footer address a{
+    width: 13%;
+    padding: 0px;
+    float: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/*========================================Media queries====================================================*/
+/*@media (max-width: 768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+       float: left;
+    }
+  
+    .col-sm-1 {
+      width: 8.33%;
+    }
+    .col-sm-2 {
+      width: 16.66%;
+    }
+    .col-sm-3 {
+      width: 25%;
+    }
+    .col-sm-4 {
+      width: 33.33%;
+    }
+    .col-sm-5 {
+      width: 41.66%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33%;
+    }
+    .col-sm-8 {
+      width: 66.66%;
+    }
+    .col-sm-9 {
+      width: 74.99%;
+    }
+    .col-sm-10 {
+      width: 83.33%;
+    }
+    .col-sm-11 {
+      width: 91.66%;
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
+  }*/
+/*==============Desktop view
+@media only screen and (max-width:768px)
+{
+    .section1{
+        height: 1100px;
+        padding : 0px;
+        margin: 0px;
+    }
+    #image{
+        position: relative;
+        height: 50px;
+        float: left;
+        width: 25%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #main{
+        width: 40%;
+        float: left;
+        margin-top: 20px;
+        position: relative;
+        padding-top: 65%;
+        padding-left: 20px;
+    }
+    .section2{
+        width: 25%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .section3{
+        width: 25%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .section4{
+        width: 25%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .section5{
+        width: 25%;
+        padding: 0px;
+        margin: 0px;
+    }
+}*/
