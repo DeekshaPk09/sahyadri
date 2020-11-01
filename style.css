@@ -59,7 +59,8 @@ ul li p{
         position: absolute;
         margin: 0px;
         padding-left: 5px;
-        width:75%;
+        padding-top:0px;
+        width:70%;
     }
     .nav_bar{
         background-color: rgb(255, 209, 2);
@@ -74,7 +75,7 @@ ul li p{
     }
     #nav ul li a{
         margin: 0px;
-        padding: 2px;
+        padding: 5px;
         display: block;
         transition: 0.3s;
         font-size: 14px;
