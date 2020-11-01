@@ -21,6 +21,7 @@ body{
     padding: 0px;
     margin-left: 8px;
     display: inline-block;
+    padding-top: 20px;
 }
 #nav ul{
     list-style-type: none;
@@ -59,8 +60,7 @@ ul li p{
         position: absolute;
         margin: 0px;
         padding-left: 5px;
-        width: 110px;
-        overflow: hidden;
+        padding-top: 20px;
     }
     .nav_bar{
         background-color: rgb(255, 209, 2);
